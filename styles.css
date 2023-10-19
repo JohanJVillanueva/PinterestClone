@@ -63,3 +63,43 @@
     background-color: lightgray;
   }
   
+.pinphoto{
+    padding: 10px;
+    border-radius: 20px;
+    width: 20%;
+    background-color: white;
+    transition: background-color 0.2s;
+    position: relative;
+}
+
+  .pinphoto-buttons {
+    position: absolute;
+
+
+    display: none;
+  }
+  
+  .pinphoto-buttons button {
+    display: inline-block;
+    padding: 10px;;
+    margin: 0px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    border-radius: 20px;
+  }
+  
+  .pinphoto-buttons button:hover {
+    background-color: gray;
+  }
+  
+  .pinphoto:hover .pinphoto-buttons {
+    display: block;
+  }
+
+  .pinphoto:hover {
+    background-color: rgb(235, 235, 235);
+  } 
+  
+.pinphoto img{
+    border-radius: 20px;
+}
