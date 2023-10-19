@@ -1,0 +1,65 @@
+.navbar {
+    background-color: white;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    flex: 1;
+  }
+  
+  .navbar-search {
+    flex: 3;
+    margin: 0 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+
+  .navbar-search input {
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+
+  }
+
+  .navbar-menu {
+    width: 50%;
+    flex: 1;
+    text-align: left;
+  }
+  
+  .navbar-menu a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+  }
+  
+  .navbar-menu a {
+    white-space: nowrap;
+  }
+
+
+  .navbar-menu a:hover {
+    background-color: lightgray;
+  }
+  
+  .navbar-icons {
+    margin-left: 10px;
+  }
+  
+  .navbar-icons i {
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+  }
+  
+  .navbar-icons i:hover {
+    background-color: lightgray;
+  }
+  
