@@ -78,6 +78,14 @@ body {
     background-color: lightgray;
   }
 
+  .navbar .home-button{
+    font-size: 15px;
+  }
+  
+  .navbar .create-button{
+    font-size: 15px;
+  }
+
 .main-contents {
     margin-top: 80px; /* Adjust as needed to provide space below the navbar */
     text-align: center;
